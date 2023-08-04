@@ -1,19 +1,4 @@
 # CHAT SERVING ENGINE FOR TRITON LLMA
-
-# FastAPI Celery Redis Postgres Docker REST API
-
-### Summary:
-
-This is simple REST API project using a modern stack with **[FastAPI](https://fastapi.tiangolo.com/)**.  
-**[Celery](http://www.celeryproject.org/)** for background tasks  
-**[Redis](https://redis.io/)** for the message broker  
-**[PostgreSQL](https://www.postgresql.org/)** for the database  
-**[SqlAlchemy](https://www.sqlalchemy.org/)** for ORM  
-**[Docker](https://docs.docker.com/)** for containerization  
-**[Docker Compose](https://docs.docker.com/compose/)** for defining and running multi-container  
-
-
-
 ## Start the system
 Start triton serving
 ```
