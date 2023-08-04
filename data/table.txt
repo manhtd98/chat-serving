@@ -1,0 +1,14 @@
+III. VĂN PHÒNG PHẨM CẤP KHOA, BỘ MÔN, HỆ,
+TIỂU ĐOÀN, ĐẠI ĐỘI, LỚP (tính cho 1 học kỳ)
+TT	Tên văn phòng phẩm	Đơn vị tính	Khoa	Bộ môn	Hệ
+(Tiểu đoàn)	Chủ nhiệm lớp thuộc hệ (Đại đội)	Lớp
+1	Giấy A4	Ram	05	05	05	01	
+2	Gim dập	Hộp	02	02	02	01	
+3	Gim vòng	Hộp	02	02	02	02	
+4	Keo dán	lọ	02	02	02	02	
+5	Bút viết bảng	Cái	06	06	06	03	
+6	Bút xoá	Cái	03	03	03	02	
+7	Phấn trắng	Hộp					10
+8	Phấn mầu	Hộp					02
+9	Mực in Laze	Hộp	01	01	01		
+10	Bàn dập gim	Cái	01	01	01	01	

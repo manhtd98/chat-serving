@@ -1,0 +1,4 @@
+*.pth
+*.onnx
+*.plan
+*.engine
