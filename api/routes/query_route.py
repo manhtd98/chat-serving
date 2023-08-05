@@ -17,15 +17,15 @@ from tasks import task_query_workflow
 trace.set_tracer_provider(TracerProvider())
 tracer = trace.get_tracer(__name__)
 
-# create a ZipkinExporter
-zipkin_exporter = ZipkinExporter(
-    endpoint=os.getenv("ZIPKIN_ENDPOINT", "http://172.17.0.1:9411/api/v2/spans"),
-)
-span_processor = BatchSpanProcessor(zipkin_exporter)
+# # create a ZipkinExporter
+# zipkin_exporter = ZipkinExporter(
+#     endpoint=os.getenv("ZIPKIN_ENDPOINT", "http://172.17.0.1:9411/api/v2/spans"),
+# )
+# span_processor = BatchSpanProcessor(zipkin_exporter)
 
-# add to the tracer
-trace.get_tracer_provider().add_span_processor(span_processor)
-prop = TraceContextTextMapPropagator()
+# # add to the tracer
+# trace.get_tracer_provider().add_span_processor(span_processor)
+# prop = TraceContextTextMapPropagator()
 
 router = APIRouter(prefix="/chat", tags=["chat api"])
 

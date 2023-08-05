@@ -32,19 +32,6 @@ app.add_middleware(
     allow_credentials=True,
 )
 
-logging.basicConfig(
-    format=f"\n\x00%(asctime)s.%(msecs)03d [%(levelname)s]: %(message)s",
-    level=logging.INFO,
-    datefmt="%Y-%m-%d %H:%M:%S",
-    handlers=[
-        logstash.TCPLogstashHandler(
-            os.getenv("FLUENT_HOST", "logstash.aicycle.ai"), 50000, version=1
-        ),
-        logging.StreamHandler(),
-    ],
-)
-
-
 @app.on_event("startup")
 async def startup_event():
     logging.info("SUCCESS INIT RESTFUL API")

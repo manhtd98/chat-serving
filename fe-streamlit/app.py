@@ -4,12 +4,14 @@ import time
 import yaml
 from yaml.loader import SafeLoader
 import streamlit_authenticator as stauth
-import logging
+from logging_helper import configure_logging
 import requests
+import os
+import logging
 
-logging.basicConfig(handlers=[logging.StreamHandler()])
+configure_logging()
 
-API_ENDPOINT = "http://api:8000/"
+API_ENDPOINT = os.getenv("API_ENDPOINT", "http://api:8000")
 st.set_page_config(page_title="Streamlit Chat", layout="wide")
 with open("./config.yml") as file:
     config = yaml.load(file, Loader=SafeLoader)
@@ -40,8 +42,6 @@ def chat_screen():
     # Initialize chat history
     if "messages" not in st.session_state:
         st.session_state.messages = []
-
-    print(st.session_state.messages)
     # Display chat messages from history on app rerun
     for message in st.session_state.messages:
         with st.chat_message(message["role"]):
@@ -59,13 +59,21 @@ def chat_screen():
         with st.chat_message("assistant"):
             message_placeholder = st.empty()
             full_response = ""
-            assistant_response = random.choice(
-                [
-                    "Hello there! How can I assist you today?",
-                    "Hi, human! Is there anything I can help you with?",
-                    "Do you need help?",
-                ]
-            )
+            start_time = time.perf_counter()
+            try:
+                request_response = requests.post(
+                    API_ENDPOINT + "/api/v1/chat/query",
+                    json={"query": prompt, "bucket": "user1", "token": "token_id"},
+                )
+                response = request_response.json()
+                if response:
+                    assistant_response = response["result"]["answern"]
+                else:
+                    assistant_response = "Vui lòng đổi câu hỏi"
+            except Exception as exception:
+                logging.error(str(exception))
+                assistant_response = "Hệ thống đang gặp lỗi, vui lòng thử lại sau"
+            logging.info(f"CALLING API ENDPOINT: {time.perf_counter()-start_time}")
 
             # Simulate stream of response with milliseconds delay
             for chunk in assistant_response.split():
@@ -82,7 +90,6 @@ def chat_screen():
 
 if __name__ == "__main__":
     name, authentication_status, username = authenticator.login("Login", "main")
-    print(name, authentication_status, username)
     if authentication_status:
         authenticator.logout("Logout", "main", key="unique_key")
         st.write(f"Welcome *{name}*")
