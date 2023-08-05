@@ -1,0 +1,14 @@
+credentials:
+  usernames:
+    test:
+      email: test@gmail.com
+      name: test
+      password: $2b$12$2OP.109V.xUJw9mQUYj0X.RPrYK0moI5Shx7gu6O0FAnTVCFK/JVe # To be replaced with hashed password
+cookie:
+  expiry_days: 30
+  key: cookie_key # Must be string
+  name: cookie_name
+
+preauthorized:
+  emails:
+  - test@gmail.com
