@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "fe-streamlit"
+version = "0.1.0"
+description = ""
+authors = ["manhtd98 <manhtd6932@seta-international.vn>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9.12"
+streamlit = "^1.25.0"
+streamlit-login-auth-ui = "^0.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
