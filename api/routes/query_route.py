@@ -36,9 +36,7 @@ router = APIRouter(prefix="/chat", tags=["chat api"])
     status_code=202,
     responses={202: {"model": TaskResult, "description": "Accepted: Not Ready"}},
 )
-async def process(
-    query: QueryRequest
-):
+async def process(query: QueryRequest):
     chat_session = get_user_chat_history(query.token, query.bucket)
     result = {}
     start_time = time.perf_counter()

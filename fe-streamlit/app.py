@@ -5,9 +5,11 @@ import yaml
 from yaml.loader import SafeLoader
 import streamlit_authenticator as stauth
 import logging
-logging.basicConfig(
-    handlers=[logging.StreamHandler()]
-)
+import requests
+
+logging.basicConfig(handlers=[logging.StreamHandler()])
+
+API_ENDPOINT = "http://api:8000/"
 st.set_page_config(page_title="Streamlit Chat", layout="wide")
 with open("./config.yml") as file:
     config = yaml.load(file, Loader=SafeLoader)
@@ -19,6 +21,8 @@ authenticator = stauth.Authenticate(
     config["cookie"]["expiry_days"],
     config["preauthorized"],
 )
+
+
 def intro():
     st.title("# Welcome to Streamlit! 👋")
     st.sidebar.success("Select a demo above.")
@@ -34,7 +38,7 @@ def chat_screen():
     st.title("HVKTQS Chat QA App")
 
     # Initialize chat history
-    if 'messages' not in st.session_state:
+    if "messages" not in st.session_state:
         st.session_state.messages = []
 
     print(st.session_state.messages)
@@ -62,6 +66,7 @@ def chat_screen():
                     "Do you need help?",
                 ]
             )
+
             # Simulate stream of response with milliseconds delay
             for chunk in assistant_response.split():
                 full_response += chunk + " "
@@ -70,8 +75,11 @@ def chat_screen():
                 message_placeholder.markdown(full_response + "▌")
             message_placeholder.markdown(full_response)
         # Add assistant response to chat history
-        st.session_state.messages.append({"role": "assistant", "content": full_response})
-        
+        st.session_state.messages.append(
+            {"role": "assistant", "content": full_response}
+        )
+
+
 if __name__ == "__main__":
     name, authentication_status, username = authenticator.login("Login", "main")
     print(name, authentication_status, username)

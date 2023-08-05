@@ -1,21 +1,28 @@
-
-
 import os
 import sys
 
 sys.path.insert(0, os.path.realpath(os.path.pardir))
 import logging
 import logstash
-
+from importlib import metadata
+from fastapi.responses import UJSONResponse
 from fastapi import FastAPI  # noqa: E402
 from fastapi.middleware.cors import CORSMiddleware  # noqa: E402
 from opentelemetry.instrumentation.fastapi import FastAPIInstrumentor  # noqa: E402
-from routes import query_route,user_route
+from routes import query_route, user_route
 from database import engine
 from models import Base
-Base.metadata.create_all(bind=engine)
+from logging_helper import configure_logging
 
-app = FastAPI(openapi_url="/api/v1/tasks/openapi.json", docs_url="/api/docs")
+Base.metadata.create_all(bind=engine)
+configure_logging()
+app = FastAPI(
+    openapi_url="/api/v1/tasks/openapi.json",
+    title="fastlogging",
+    redoc_url="/api/redoc",
+    default_response_class=UJSONResponse,
+    docs_url="/api/doc",
+)
 FastAPIInstrumentor.instrument_app(app)
 app.add_middleware(
     CORSMiddleware,
@@ -36,6 +43,7 @@ logging.basicConfig(
         logging.StreamHandler(),
     ],
 )
+
 
 @app.on_event("startup")
 async def startup_event():

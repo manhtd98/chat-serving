@@ -30,5 +30,11 @@ def task_add_user(count: int, delay: int):
 
 
 @app.task
-def task_query_workflow(query: str, chat_history: dict)-> dict:
-    return {"result":{"query":query, "answern": "Happy time with our Chatbot", "confident": 0.89}}
+def task_query_workflow(query: str, chat_history: dict) -> dict:
+    return {
+        "result": {
+            "query": query,
+            "answern": "Happy time with our Chatbot",
+            "confident": 0.89,
+        }
+    }

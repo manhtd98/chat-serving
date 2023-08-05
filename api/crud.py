@@ -6,6 +6,7 @@ from schemas import UserIn, UserOut
 def get_user_chat_history(token, bucket):
     return {}
 
+
 def crud_add_user(user: UserIn):
     db_user = User(**user.dict())
     with db_context() as db:
@@ -21,4 +22,3 @@ def crud_get_user_info(user_id: int):
     if user:
         return UserOut(**user.__dict__)
     return None
-

@@ -18,6 +18,7 @@ class User(Base):
     age = Column("age", Integer)
     bucket: Mapped[List["Bucket"]] = relationship(back_populates="user")
 
+
 class Bucket(Base):
     __tablename__ = "bucket_table"
     id = Column("id", Integer, primary_key=True, autoincrement=True)
@@ -27,7 +28,8 @@ class Bucket(Base):
     user_id: Mapped[int] = mapped_column(ForeignKey("user_table.id"))
     user: Mapped["User"] = relationship(back_populates="bucket")
     chat_history: Mapped[List["ChatHistory"]] = relationship(back_populates="bucket")
-    
+
+
 class ChatHistory(Base):
     __tablename__ = "chat_history"
     id = Column("id", Integer, primary_key=True, autoincrement=True)
