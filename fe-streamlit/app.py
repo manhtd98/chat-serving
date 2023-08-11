@@ -38,7 +38,7 @@ def intro():
 
 
 def chat_screen():
-    st.title("HVKTQS Chat QA App")
+    
 
     # Initialize chat history
     if "messages" not in st.session_state:
@@ -98,9 +98,11 @@ page_names_to_funcs = {
 if __name__ == "__main__":
     name, authentication_status, username = authenticator.login("Login", "main")
     if authentication_status:
-        authenticator.logout("Logout", "main", key="unique_key")
-        st.write(f"Welcome *{name}*")
+        
         demo_name = st.sidebar.selectbox("Choose a demo", page_names_to_funcs.keys())
+        authenticator.logout("Logout", "main", key="unique_key")
+        st.sidebar.write(f"Welcome *{name}*")
+        st.sidebar.title("HVKTQS Chat QA App")
         page_names_to_funcs[demo_name]()
     elif authentication_status is False:
         st.error("Username/password is incorrect")

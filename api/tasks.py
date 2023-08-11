@@ -3,7 +3,7 @@ import time
 import requests
 from celery import Celery
 from schemas import UserIn
-
+from pipeline_langchain import load_chain
 app = Celery(
     "tasks",
     broker="redis://localhost:6379/0",
@@ -11,6 +11,7 @@ app = Celery(
 )
 
 
+LANGCHAIN_PIPELINE = load_chain()
 @app.task
 def task_add_user(count: int, delay: int):
     url = "https://randomuser.me/api"
@@ -31,10 +32,13 @@ def task_add_user(count: int, delay: int):
 
 @app.task
 def task_query_workflow(query: str, chat_history: dict) -> dict:
+    chat_history = []
+    result = LANGCHAIN_PIPELINE({"question": query, "chat_history": chat_history})
     return {
         "result": {
             "query": query,
-            "answern": "Happy time with our Chatbot",
+            "answern": result["answer"],
+            "source_documents": result["source_documents"],
             "confident": 0.89,
         }
     }
