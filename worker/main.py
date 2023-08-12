@@ -7,7 +7,7 @@ class ChatQueryTaskImp(ChatQueryTask):
         self.LANGCHAIN_PIPELINE = load_chain()
     
     def run(self, query) -> dict:
-        logger.info("START PROCESSING")
+        logger.info(f"START PROCESSING: {query}")
         chat_history = []
         result = self.LANGCHAIN_PIPELINE({"question": query, "chat_history": chat_history})
         logger.info("END PROCESSING")
@@ -15,10 +15,10 @@ class ChatQueryTaskImp(ChatQueryTask):
             "result": {
                 "query": query,
                 "answern": result["answer"],
-                "source_documents": result["source_documents"],
+                # "source_documents": result["source_documents"],
                 "confident": 0.89,
             },
-            "status":"SUCCESS"
+            "status": "SUCCESS"
         }
 
 app, _ = create_worker_from(ChatQueryTaskImp)
