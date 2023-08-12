@@ -17,12 +17,14 @@ ecs_logging
 fluent-logger
 msgpack
 python3-logstash
-
-
-
 #### 
 langchain
 transformers
 bitsandbytes
 scipy
 accelerate
+unstructured
+xformers
+python-docx
+sentence_transformers
+faiss-gpu
