@@ -1,0 +1,13 @@
+langchain
+transformers
+bitsandbytes
+scipy
+accelerate
+unstructured
+xformers
+python-docx
+sentence_transformers
+faiss-gpu
+redis
+celery
+loguru

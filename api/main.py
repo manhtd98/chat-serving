@@ -14,7 +14,7 @@ from database import engine
 from models import Base
 from logging_helper import configure_logging
 
-Base.metadata.create_all(bind=engine)
+# Base.metadata.create_all(bind=engine)
 configure_logging()
 app = FastAPI(
     openapi_url="/api/v1/tasks/openapi.json",

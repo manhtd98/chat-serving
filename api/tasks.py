@@ -4,10 +4,11 @@ import requests
 from celery import Celery
 from schemas import UserIn
 from pipeline_langchain import load_chain
+
 app = Celery(
     "tasks",
     broker="redis://localhost:6379/0",
-    backend="sqla+postgresql://user:password@database:5432/alpha",
+    backend="redis://localhost:6379/0"
 )
 
 
@@ -30,7 +31,7 @@ def task_add_user(count: int, delay: int):
     return {"success": result}
 
 
-@app.task
+@app.task(name="task_query_workflow")
 def task_query_workflow(query: str, chat_history: dict) -> dict:
     chat_history = []
     result = LANGCHAIN_PIPELINE({"question": query, "chat_history": chat_history})

@@ -8,3 +8,13 @@ Start backend api
 ```
 docker-compose up -d
 ```
+
+
+```
+CELERY_BROKER_URL=redis://localhost:6379/0 CELERY_RESULT_BACKEND=db+postgresql://user:password@localhost:5432/alpha celery -A main worker --concurrency 1 -P solo -Q task_query_workflow -E --loglevel=info --logfile=logs/celery.log
+```
+
+
+```
+sudo COMPOSE_DOCKER_CLI_BUILD=1 DOCKER_BUILDKIT=1 docker-compose up -d --build
+```

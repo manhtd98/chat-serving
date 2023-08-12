@@ -1,0 +1,414 @@
+[2023-08-12 12:27:52,784: WARNING/MainProcess] /home/hduser/anaconda3/lib/python3.9/site-packages/celery/worker/consumer/consumer.py:498: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2023-08-12 12:27:52,798: INFO/MainProcess] Connected to redis://localhost:6379/0
+[2023-08-12 12:27:52,799: WARNING/MainProcess] /home/hduser/anaconda3/lib/python3.9/site-packages/celery/worker/consumer/consumer.py:498: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2023-08-12 12:27:52,801: INFO/MainProcess] mingle: searching for neighbors
+[2023-08-12 12:27:53,810: INFO/MainProcess] mingle: all alone
+[2023-08-12 12:27:53,826: INFO/MainProcess] celery@hduser-SYS-7039A-I ready.
+[2023-08-12 12:34:07,277: WARNING/MainProcess] /home/hduser/anaconda3/lib/python3.9/site-packages/celery/worker/consumer/consumer.py:498: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2023-08-12 12:34:07,283: INFO/MainProcess] Connected to redis://localhost:6379/0
+[2023-08-12 12:34:07,283: WARNING/MainProcess] /home/hduser/anaconda3/lib/python3.9/site-packages/celery/worker/consumer/consumer.py:498: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2023-08-12 12:34:07,285: INFO/MainProcess] mingle: searching for neighbors
+[2023-08-12 12:34:08,292: INFO/MainProcess] mingle: all alone
+[2023-08-12 12:34:08,305: INFO/MainProcess] celery@hduser-SYS-7039A-I ready.
+[2023-08-12 12:36:54,032: WARNING/MainProcess] /home/hduser/anaconda3/lib/python3.9/site-packages/celery/worker/consumer/consumer.py:498: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2023-08-12 12:36:54,037: INFO/MainProcess] Connected to redis://localhost:6379/0
+[2023-08-12 12:36:54,038: WARNING/MainProcess] /home/hduser/anaconda3/lib/python3.9/site-packages/celery/worker/consumer/consumer.py:498: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2023-08-12 12:36:54,039: INFO/MainProcess] mingle: searching for neighbors
+[2023-08-12 12:36:55,047: INFO/MainProcess] mingle: all alone
+[2023-08-12 12:36:55,061: INFO/MainProcess] celery@hduser-SYS-7039A-I ready.
+[2023-08-12 12:39:16,086: WARNING/MainProcess] /home/hduser/anaconda3/lib/python3.9/site-packages/celery/worker/consumer/consumer.py:498: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2023-08-12 12:39:16,092: INFO/MainProcess] Connected to redis://localhost:6379/0
+[2023-08-12 12:39:16,093: WARNING/MainProcess] /home/hduser/anaconda3/lib/python3.9/site-packages/celery/worker/consumer/consumer.py:498: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2023-08-12 12:39:16,096: INFO/MainProcess] mingle: searching for neighbors
+[2023-08-12 12:39:17,105: INFO/MainProcess] mingle: all alone
+[2023-08-12 12:39:17,118: INFO/MainProcess] celery@hduser-SYS-7039A-I ready.
+[2023-08-12 12:41:48,978: WARNING/MainProcess] /home/hduser/anaconda3/lib/python3.9/site-packages/celery/worker/consumer/consumer.py:498: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2023-08-12 12:41:48,985: INFO/MainProcess] Connected to redis://localhost:6379/0
+[2023-08-12 12:41:48,986: WARNING/MainProcess] /home/hduser/anaconda3/lib/python3.9/site-packages/celery/worker/consumer/consumer.py:498: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2023-08-12 12:41:48,987: INFO/MainProcess] mingle: searching for neighbors
+[2023-08-12 12:41:49,994: INFO/MainProcess] mingle: all alone
+[2023-08-12 12:41:50,007: INFO/MainProcess] celery@hduser-SYS-7039A-I ready.
+[2023-08-12 12:43:23,340: WARNING/MainProcess] /home/hduser/anaconda3/lib/python3.9/site-packages/celery/worker/consumer/consumer.py:498: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2023-08-12 12:43:23,345: INFO/MainProcess] Connected to redis://localhost:6379/0
+[2023-08-12 12:43:23,346: WARNING/MainProcess] /home/hduser/anaconda3/lib/python3.9/site-packages/celery/worker/consumer/consumer.py:498: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2023-08-12 12:43:23,347: INFO/MainProcess] mingle: searching for neighbors
+[2023-08-12 12:43:24,355: INFO/MainProcess] mingle: all alone
+[2023-08-12 12:43:24,369: INFO/MainProcess] celery@hduser-SYS-7039A-I ready.
+[2023-08-12 12:43:36,730: INFO/MainProcess] Task task_query_workflow[16391f11-c12b-4521-9fa7-d4dbafe0966b] received
+[2023-08-12 12:43:36,744: WARNING/MainProcess] Batches:   0%|          | 0/1 [00:00<?, ?it/s]
+[2023-08-12 12:43:36,776: WARNING/MainProcess] Batches: 100%|##########| 1/1 [00:00<00:00, 31.66it/s]
+[2023-08-12 12:43:36,786: WARNING/MainProcess] /home/hduser/anaconda3/lib/python3.9/site-packages/transformers/generation/utils.py:1270: UserWarning: You have modified the pretrained model configuration to control generation. This is a deprecated strategy to control generation and will be removed soon, in a future version. Please use a generation configuration file (see https://huggingface.co/docs/transformers/main_classes/text_generation )
+  warnings.warn(
+
+[2023-08-12 12:43:50,851: WARNING/MainProcess] /home/hduser/anaconda3/lib/python3.9/site-packages/celery/app/trace.py:686: RuntimeWarning: Exception raised outside body: ModuleNotFoundError("No module named 'psycopg2'"):
+Traceback (most recent call last):
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/app/trace.py", line 544, in trace_task
+    task.backend.mark_as_done(
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/backends/base.py", line 157, in mark_as_done
+    self.store_result(task_id, result, state, request=request)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/backends/base.py", line 526, in store_result
+    self._store_result(task_id, result, state, traceback,
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/backends/database/__init__.py", line 47, in _inner
+    return fun(*args, **kwargs)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/backends/database/__init__.py", line 115, in _store_result
+    session = self.ResultSession()
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/backends/database/__init__.py", line 106, in ResultSession
+    return session_manager.session_factory(
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/backends/database/session.py", line 87, in session_factory
+    engine, session = self.create_session(dburi, **kwargs)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/backends/database/session.py", line 56, in create_session
+    engine = self.get_engine(dburi, **kwargs)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/backends/database/session.py", line 53, in get_engine
+    return create_engine(dburi, poolclass=NullPool, **kwargs)
+  File "<string>", line 2, in create_engine
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/sqlalchemy/util/deprecations.py", line 309, in warned
+    return fn(*args, **kwargs)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/sqlalchemy/engine/create.py", line 560, in create_engine
+    dbapi = dialect_cls.dbapi(**dbapi_args)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/sqlalchemy/dialects/postgresql/psycopg2.py", line 782, in dbapi
+    import psycopg2
+ModuleNotFoundError: No module named 'psycopg2'
+
+  warn(RuntimeWarning(
+
+[2023-08-12 12:43:50,853: CRITICAL/MainProcess] Unrecoverable error: ModuleNotFoundError("No module named 'psycopg2'")
+Traceback (most recent call last):
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/app/trace.py", line 544, in trace_task
+    task.backend.mark_as_done(
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/backends/base.py", line 157, in mark_as_done
+    self.store_result(task_id, result, state, request=request)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/backends/base.py", line 526, in store_result
+    self._store_result(task_id, result, state, traceback,
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/backends/database/__init__.py", line 47, in _inner
+    return fun(*args, **kwargs)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/backends/database/__init__.py", line 115, in _store_result
+    session = self.ResultSession()
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/backends/database/__init__.py", line 106, in ResultSession
+    return session_manager.session_factory(
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/backends/database/session.py", line 87, in session_factory
+    engine, session = self.create_session(dburi, **kwargs)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/backends/database/session.py", line 56, in create_session
+    engine = self.get_engine(dburi, **kwargs)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/backends/database/session.py", line 53, in get_engine
+    return create_engine(dburi, poolclass=NullPool, **kwargs)
+  File "<string>", line 2, in create_engine
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/sqlalchemy/util/deprecations.py", line 309, in warned
+    return fn(*args, **kwargs)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/sqlalchemy/engine/create.py", line 560, in create_engine
+    dbapi = dialect_cls.dbapi(**dbapi_args)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/sqlalchemy/dialects/postgresql/psycopg2.py", line 782, in dbapi
+    import psycopg2
+ModuleNotFoundError: No module named 'psycopg2'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/worker/worker.py", line 202, in start
+    self.blueprint.start(self)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/bootsteps.py", line 116, in start
+    step.start(parent)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/bootsteps.py", line 365, in start
+    return self.obj.start()
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/worker/consumer/consumer.py", line 336, in start
+    blueprint.start(self)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/bootsteps.py", line 116, in start
+    step.start(parent)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/worker/consumer/consumer.py", line 726, in start
+    c.loop(*c.loop_args())
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/worker/loops.py", line 97, in asynloop
+    next(loop)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/kombu/asynchronous/hub.py", line 373, in create_loop
+    cb(*cbargs)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/kombu/transport/redis.py", line 1336, in on_readable
+    self.cycle.on_readable(fileno)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/kombu/transport/redis.py", line 566, in on_readable
+    chan.handlers[type]()
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/kombu/transport/redis.py", line 971, in _brpop_read
+    self.connection._deliver(loads(bytes_to_str(item)), dest)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/kombu/transport/virtual/base.py", line 1017, in _deliver
+    callback(message)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/kombu/transport/virtual/base.py", line 639, in _callback
+    return callback(message)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/kombu/messaging.py", line 656, in _receive_callback
+    return on_m(message) if on_m else self.receive(decoded, message)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/worker/consumer/consumer.py", line 668, in on_task_received
+    strategy(
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/worker/strategy.py", line 207, in task_message_handler
+    handle(req)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/worker/worker.py", line 225, in _process_task
+    req.execute_using_pool(self.pool)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/worker/request.py", line 754, in execute_using_pool
+    result = apply_async(
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/concurrency/base.py", line 153, in apply_async
+    return self.on_apply(target, args, kwargs,
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/concurrency/base.py", line 30, in apply_target
+    ret = target(*args, **kwargs)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/app/trace.py", line 675, in fast_trace_task
+    R, I, T, Rstr = tasks[task].__trace__(
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/app/trace.py", line 598, in trace_task
+    I, _, _, _ = on_error(task_request, exc)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/app/trace.py", line 399, in on_error
+    R = I.handle_error_state(
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/app/trace.py", line 178, in handle_error_state
+    return {
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/app/trace.py", line 230, in handle_failure
+    task.backend.mark_as_failure(
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/backends/base.py", line 167, in mark_as_failure
+    self.store_result(task_id, exc, state,
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/backends/base.py", line 526, in store_result
+    self._store_result(task_id, result, state, traceback,
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/backends/database/__init__.py", line 47, in _inner
+    return fun(*args, **kwargs)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/backends/database/__init__.py", line 115, in _store_result
+    session = self.ResultSession()
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/backends/database/__init__.py", line 106, in ResultSession
+    return session_manager.session_factory(
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/backends/database/session.py", line 87, in session_factory
+    engine, session = self.create_session(dburi, **kwargs)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/backends/database/session.py", line 56, in create_session
+    engine = self.get_engine(dburi, **kwargs)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/backends/database/session.py", line 53, in get_engine
+    return create_engine(dburi, poolclass=NullPool, **kwargs)
+  File "<string>", line 2, in create_engine
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/sqlalchemy/util/deprecations.py", line 309, in warned
+    return fn(*args, **kwargs)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/sqlalchemy/engine/create.py", line 560, in create_engine
+    dbapi = dialect_cls.dbapi(**dbapi_args)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/sqlalchemy/dialects/postgresql/psycopg2.py", line 782, in dbapi
+    import psycopg2
+ModuleNotFoundError: No module named 'psycopg2'
+[2023-08-12 12:52:56,813: WARNING/MainProcess] /home/hduser/anaconda3/lib/python3.9/site-packages/celery/worker/consumer/consumer.py:498: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2023-08-12 12:52:56,820: INFO/MainProcess] Connected to redis://localhost:6379/0
+[2023-08-12 12:52:56,820: WARNING/MainProcess] /home/hduser/anaconda3/lib/python3.9/site-packages/celery/worker/consumer/consumer.py:498: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2023-08-12 12:52:56,823: INFO/MainProcess] mingle: searching for neighbors
+[2023-08-12 12:52:57,831: INFO/MainProcess] mingle: all alone
+[2023-08-12 12:52:57,845: INFO/MainProcess] celery@hduser-SYS-7039A-I ready.
+[2023-08-12 12:53:04,428: INFO/MainProcess] Task task_query_workflow[c0965102-900f-4fa8-a3d1-56290aa85fce] received
+[2023-08-12 12:53:04,439: WARNING/MainProcess] Batches:   0%|          | 0/1 [00:00<?, ?it/s]
+[2023-08-12 12:53:04,473: WARNING/MainProcess] Batches: 100%|##########| 1/1 [00:00<00:00, 30.10it/s]
+[2023-08-12 12:53:04,482: WARNING/MainProcess] /home/hduser/anaconda3/lib/python3.9/site-packages/transformers/generation/utils.py:1270: UserWarning: You have modified the pretrained model configuration to control generation. This is a deprecated strategy to control generation and will be removed soon, in a future version. Please use a generation configuration file (see https://huggingface.co/docs/transformers/main_classes/text_generation )
+  warnings.warn(
+
+[2023-08-12 12:53:18,872: WARNING/MainProcess] /home/hduser/anaconda3/lib/python3.9/site-packages/celery/app/trace.py:686: RuntimeWarning: Exception raised outside body: ModuleNotFoundError("No module named 'psycopg2'"):
+Traceback (most recent call last):
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/app/trace.py", line 544, in trace_task
+    task.backend.mark_as_done(
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/backends/base.py", line 157, in mark_as_done
+    self.store_result(task_id, result, state, request=request)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/backends/base.py", line 526, in store_result
+    self._store_result(task_id, result, state, traceback,
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/backends/database/__init__.py", line 47, in _inner
+    return fun(*args, **kwargs)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/backends/database/__init__.py", line 115, in _store_result
+    session = self.ResultSession()
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/backends/database/__init__.py", line 106, in ResultSession
+    return session_manager.session_factory(
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/backends/database/session.py", line 87, in session_factory
+    engine, session = self.create_session(dburi, **kwargs)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/backends/database/session.py", line 56, in create_session
+    engine = self.get_engine(dburi, **kwargs)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/backends/database/session.py", line 53, in get_engine
+    return create_engine(dburi, poolclass=NullPool, **kwargs)
+  File "<string>", line 2, in create_engine
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/sqlalchemy/util/deprecations.py", line 309, in warned
+    return fn(*args, **kwargs)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/sqlalchemy/engine/create.py", line 560, in create_engine
+    dbapi = dialect_cls.dbapi(**dbapi_args)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/sqlalchemy/dialects/postgresql/psycopg2.py", line 782, in dbapi
+    import psycopg2
+ModuleNotFoundError: No module named 'psycopg2'
+
+  warn(RuntimeWarning(
+
+[2023-08-12 12:53:18,874: CRITICAL/MainProcess] Unrecoverable error: ModuleNotFoundError("No module named 'psycopg2'")
+Traceback (most recent call last):
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/app/trace.py", line 544, in trace_task
+    task.backend.mark_as_done(
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/backends/base.py", line 157, in mark_as_done
+    self.store_result(task_id, result, state, request=request)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/backends/base.py", line 526, in store_result
+    self._store_result(task_id, result, state, traceback,
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/backends/database/__init__.py", line 47, in _inner
+    return fun(*args, **kwargs)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/backends/database/__init__.py", line 115, in _store_result
+    session = self.ResultSession()
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/backends/database/__init__.py", line 106, in ResultSession
+    return session_manager.session_factory(
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/backends/database/session.py", line 87, in session_factory
+    engine, session = self.create_session(dburi, **kwargs)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/backends/database/session.py", line 56, in create_session
+    engine = self.get_engine(dburi, **kwargs)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/backends/database/session.py", line 53, in get_engine
+    return create_engine(dburi, poolclass=NullPool, **kwargs)
+  File "<string>", line 2, in create_engine
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/sqlalchemy/util/deprecations.py", line 309, in warned
+    return fn(*args, **kwargs)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/sqlalchemy/engine/create.py", line 560, in create_engine
+    dbapi = dialect_cls.dbapi(**dbapi_args)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/sqlalchemy/dialects/postgresql/psycopg2.py", line 782, in dbapi
+    import psycopg2
+ModuleNotFoundError: No module named 'psycopg2'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/worker/worker.py", line 202, in start
+    self.blueprint.start(self)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/bootsteps.py", line 116, in start
+    step.start(parent)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/bootsteps.py", line 365, in start
+    return self.obj.start()
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/worker/consumer/consumer.py", line 336, in start
+    blueprint.start(self)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/bootsteps.py", line 116, in start
+    step.start(parent)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/worker/consumer/consumer.py", line 726, in start
+    c.loop(*c.loop_args())
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/worker/loops.py", line 97, in asynloop
+    next(loop)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/kombu/asynchronous/hub.py", line 373, in create_loop
+    cb(*cbargs)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/kombu/transport/redis.py", line 1336, in on_readable
+    self.cycle.on_readable(fileno)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/kombu/transport/redis.py", line 566, in on_readable
+    chan.handlers[type]()
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/kombu/transport/redis.py", line 971, in _brpop_read
+    self.connection._deliver(loads(bytes_to_str(item)), dest)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/kombu/transport/virtual/base.py", line 1017, in _deliver
+    callback(message)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/kombu/transport/virtual/base.py", line 639, in _callback
+    return callback(message)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/kombu/messaging.py", line 656, in _receive_callback
+    return on_m(message) if on_m else self.receive(decoded, message)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/worker/consumer/consumer.py", line 668, in on_task_received
+    strategy(
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/worker/strategy.py", line 207, in task_message_handler
+    handle(req)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/worker/worker.py", line 225, in _process_task
+    req.execute_using_pool(self.pool)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/worker/request.py", line 754, in execute_using_pool
+    result = apply_async(
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/concurrency/base.py", line 153, in apply_async
+    return self.on_apply(target, args, kwargs,
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/concurrency/base.py", line 30, in apply_target
+    ret = target(*args, **kwargs)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/app/trace.py", line 675, in fast_trace_task
+    R, I, T, Rstr = tasks[task].__trace__(
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/app/trace.py", line 598, in trace_task
+    I, _, _, _ = on_error(task_request, exc)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/app/trace.py", line 399, in on_error
+    R = I.handle_error_state(
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/app/trace.py", line 178, in handle_error_state
+    return {
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/app/trace.py", line 230, in handle_failure
+    task.backend.mark_as_failure(
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/backends/base.py", line 167, in mark_as_failure
+    self.store_result(task_id, exc, state,
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/backends/base.py", line 526, in store_result
+    self._store_result(task_id, result, state, traceback,
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/backends/database/__init__.py", line 47, in _inner
+    return fun(*args, **kwargs)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/backends/database/__init__.py", line 115, in _store_result
+    session = self.ResultSession()
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/backends/database/__init__.py", line 106, in ResultSession
+    return session_manager.session_factory(
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/backends/database/session.py", line 87, in session_factory
+    engine, session = self.create_session(dburi, **kwargs)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/backends/database/session.py", line 56, in create_session
+    engine = self.get_engine(dburi, **kwargs)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/celery/backends/database/session.py", line 53, in get_engine
+    return create_engine(dburi, poolclass=NullPool, **kwargs)
+  File "<string>", line 2, in create_engine
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/sqlalchemy/util/deprecations.py", line 309, in warned
+    return fn(*args, **kwargs)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/sqlalchemy/engine/create.py", line 560, in create_engine
+    dbapi = dialect_cls.dbapi(**dbapi_args)
+  File "/home/hduser/anaconda3/lib/python3.9/site-packages/sqlalchemy/dialects/postgresql/psycopg2.py", line 782, in dbapi
+    import psycopg2
+ModuleNotFoundError: No module named 'psycopg2'
+[2023-08-12 12:55:44,224: WARNING/MainProcess] /home/hduser/anaconda3/lib/python3.9/site-packages/celery/worker/consumer/consumer.py:498: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2023-08-12 12:55:44,231: INFO/MainProcess] Connected to redis://localhost:6379/0
+[2023-08-12 12:55:44,231: WARNING/MainProcess] /home/hduser/anaconda3/lib/python3.9/site-packages/celery/worker/consumer/consumer.py:498: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2023-08-12 12:55:44,232: INFO/MainProcess] mingle: searching for neighbors
+[2023-08-12 12:55:45,240: INFO/MainProcess] mingle: all alone
+[2023-08-12 12:55:45,254: INFO/MainProcess] celery@hduser-SYS-7039A-I ready.
