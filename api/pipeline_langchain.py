@@ -75,7 +75,7 @@ def load_chain():
     llm = HuggingFacePipeline(pipeline=generate_text)
     # # read text
     txt_loader = DirectoryLoader(
-        "sotaysinhvien", glob="./*.docx", loader_cls=UnstructuredWordDocumentLoader
+        "data", glob="./*.docx", loader_cls=UnstructuredWordDocumentLoader
     )
     documents = txt_loader.load()
     text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=20)
