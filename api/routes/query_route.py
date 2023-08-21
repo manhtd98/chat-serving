@@ -12,7 +12,7 @@ import logging
 import asyncio
 from schemas import QueryRequest, TaskResult
 from crud import get_user_chat_history
-from tasks import task_query_workflow
+from celery_config import create_worker_from, ChatQueryTask
 
 trace.set_tracer_provider(TracerProvider())
 tracer = trace.get_tracer(__name__)
@@ -29,6 +29,8 @@ tracer = trace.get_tracer(__name__)
 
 router = APIRouter(prefix="/chat", tags=["chat api"])
 
+_, chat_Worker = create_worker_from(ChatQueryTask)
+
 
 @router.post(
     "/query",
@@ -43,7 +45,12 @@ async def process(query: QueryRequest):
     with tracer.start_as_current_span("RESTFUL API SEGMENTATION"):
         try:
             logging.info("START REQUEST SEGMENTATION")
-            task_id = task_query_workflow.delay(query.query, chat_session)
+            task_id = chat_Worker.apply_async(
+                args=[query.query],
+                queue="task_query_workflow",
+                time_limit=20,
+                soft_time_limit=10,
+            )
             result["task_id"] = str(task_id)
             result["status"] = "PROCESSING"
             task = AsyncResult(str(task_id))

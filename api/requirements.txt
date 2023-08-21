@@ -17,12 +17,3 @@ ecs_logging
 fluent-logger
 msgpack
 python3-logstash
-
-
-
-#### 
-langchain
-transformers
-bitsandbytes
-scipy
-accelerate
