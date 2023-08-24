@@ -18,3 +18,16 @@ CELERY_BROKER_URL=redis://localhost:6379/0 CELERY_RESULT_BACKEND=redis://localho
 ```
 sudo COMPOSE_DOCKER_CLI_BUILD=1 DOCKER_BUILDKIT=1 docker-compose up -d --build
 ```
+
+
+
+#### Updated Pipeline
+
+### Generate chunk split
+Base on the new pipeline, just embeding and not using inference by LLMs, We can split chunk with unlimited length
+- Chunk need to clear the infomation
+- Optimize content 
+### Generate question and revise
+Base on chunk, we use LLM to generate question, that able to query the data in the chunk:
+
+### Inference by mapping the question and query
